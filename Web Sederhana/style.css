@@ -48,13 +48,13 @@ table {
 }
 
 /* Main CSS */
-
+/* ================================================================== */
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: grey;
 }
-.background{
-    width: 800px;
+.container{
+    width: 1000px;
     margin: auto;
     background-color: lightgray;
 }
@@ -62,6 +62,7 @@ body{
     padding: 20px;
 }
 .header a{
+    text-align: center;
     text-decoration: none;
     font-size: large;
     color: rgb(196, 193, 193);
@@ -73,13 +74,14 @@ body{
     padding-bottom: 5px;
 }
 .header .menudecor{
-    width: 770px;
+    width: 960px;
     border: 5px solid darkgray;
     border-left: 5px solid gray;
     border-right: 5px solid gray;
-    margin-top: 30px;
-    padding-left: 20px;
+    margin: auto;
     margin-left: -20px;
+    margin-top: 30px;
+    padding-left: 30px;
 }
 .header .menu ul li{
     display: inline-block;
@@ -118,12 +120,10 @@ body{
     box-shadow: 3px 3px darkslategray;
 }
 .mainimage{
-    margin: 30px;
-    margin-left: 15px;
-
+    margin: 30px auto;
 }
 .mainimage #shaw{
-    width: 730px;
+    width: 960px;
     box-sizing: border-box;
     border: 10px solid darkslategray;
     border-bottom: 10px solid lightslategray;
@@ -138,6 +138,7 @@ body{
     padding-top: 0px;
 }
 .main{
+    float: left;
     padding: 20px;
 }
 .main .articleheader{
@@ -153,6 +154,13 @@ body{
     padding-top: 0;
     font-size: 15px;
     color: darkslategrey;
+    margin-bottom: 20px;
+}
+.content{
+    float: left;
+    width: 520px;
+    margin-bottom: 40px;
+    margin-right: 50px;
 }
 .main p{
     display: block;
@@ -161,7 +169,32 @@ body{
     text-indent: 70px;
 }
 .main .p1{
-    margin-top: 35px;
+    margin-top: 3
+    5px;
+}
+.profile .aboutwriter{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.profile #writer{
+    width: 100px;
+    box-shadow: 5px 5px darkgrey;
+}
+.profile #writer:hover{
+    width: 100px;
+    box-shadow: 5px 5px darkslategray;
+}
+.profile #writer:active{
+    width: 100px;
+    box-shadow: 5px 5px rgb(114, 113, 113);
+}
+.clear{
+    clear: both;
+}
+.profile .writerdesc{
+    margin-top: 10px;
+    display: block;
+    color: darkslategrey;
 }
 .copyright{
     display: block;
@@ -172,5 +205,4 @@ body{
     background-color: darkslategray;
     margin-bottom: -40px;
 }
-
 
