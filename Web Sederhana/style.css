@@ -53,10 +53,59 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: grey;
 }
+.decor{
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: darkslategray;
+    border-bottom: 2px solid rgb(168, 167, 167);
+}
 .container{
     width: 1000px;
     margin: auto;
+    margin-top: 40px;
     background-color: lightgray;
+}
+.instagram{
+    display: block;
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    background-color: darkslategray;
+    padding: 7px;
+    position: fixed;
+    top: 0;
+    right: 18%;
+    border-bottom: 5px solid gray;
+    border-right: 5px solid rgb(168, 167, 167);
+    border-left: 2px solid rgb(168, 167, 167);
+    z-index: 1;
+}
+.instagram:hover{
+    display: block;
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(39, 59, 59);
+    padding: 7px;
+    position: fixed;
+    top: 0;
+    right: 18%;
+    border-bottom: 5px solid gray;
+    border-right: 5px solid rgb(168, 167, 167);
+    border-left: 2px solid rgb(168, 167, 167);
+}
+.instagram #gambarig{
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+}
+.instagram .igname{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(196, 193, 193);
 }
 .header{
     padding: 20px;
@@ -86,7 +135,7 @@ body{
 .header .menu ul li{
     display: inline-block;
     box-sizing: border-box;
-    width: 100px;
+    width: 110px;
     height: 55px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -98,7 +147,7 @@ body{
 .header .menu ul li:hover{
     display: inline-block;
     box-sizing: border-box;
-    width: 100px;
+    width: 110px;
     height: 55px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -110,7 +159,7 @@ body{
 .header .menu ul li:active{
     display: inline-block;
     box-sizing: border-box;
-    width: 100px;
+    width: 110px;
     height: 55px;
     margin-top: 10px;
     margin-bottom: 10px;
