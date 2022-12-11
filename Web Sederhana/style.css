@@ -138,6 +138,7 @@ body{
     padding-top: 0px;
 }
 .main{
+    display: block;
     float: left;
     padding: 20px;
 }
@@ -172,6 +173,15 @@ body{
     margin-top: 3
     5px;
 }
+.profile{
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    width:350px;
+    height: 420px;
+    padding-left: 20px;
+    border-left: 3px solid rgb(114, 113, 113);
+}
 .profile .aboutwriter{
     font-size: 30px;
     margin-bottom: 20px;
@@ -188,13 +198,21 @@ body{
     width: 100px;
     box-shadow: 5px 5px rgb(114, 113, 113);
 }
-.clear{
-    clear: both;
-}
 .profile .writerdesc{
     margin-top: 10px;
-    display: block;
+    text-align: justify;
     color: darkslategrey;
+}
+.writerdesc #p1{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 10px;
+}
+.writerdesc #p2{
+    text-indent: 20px;
+}
+.clear{
+    clear: both;
 }
 .copyright{
     display: block;
